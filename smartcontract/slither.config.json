@@ -1,0 +1,17 @@
+{
+  "filter_paths": "lib/|test/|mocks/|script/|LiquidityAmounts|RatioMath|TickMath|FixedPoint96|FullMath",
+   "solc_remaps": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@openzeppelin-upgrades/=lib/openzeppelin-contracts-upgradeable/",
+      "ds-test/=lib/ds-test/src/",
+      "@solmate/=lib/solmate/src/",
+      "@uniswap/v3-core/contracts/=lib/v3-core/contracts/",
+      "@uniswap/v3-periphery/contracts/=lib/v3-periphery/contracts/",
+      "@uniswap/permit2/src/=lib/permit2/src/",
+      "@uniswap/permit2/script/=lib/permit2/script/",
+      "@forge-std/=lib/forge-std/src/"
+   ],
+   "compile_force_framework": "foundry",
+   "detectors_to_exclude": "naming-convention,solc-version,similar-names,low-level-calls,assembly,shadowing-local"
+ }
